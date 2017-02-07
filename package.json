@@ -28,7 +28,7 @@
   "author": "Liora Milbaum",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/depy-io/depy/issues"
+    "url": "https://github.com/depy-io/issues"
   },
-  "homepage": "https://github.com/depy-io/depy#readme"
+  "homepage": "https://github.com/depy-io#readme"
 }
