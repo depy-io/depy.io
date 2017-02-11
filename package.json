@@ -9,7 +9,7 @@
     "pug": "^2.0.0-beta6",
     "stylus": "^0.54.5"
   },
-  "name": "depy",
+  "name": "depy.io",
   "version": "0.0.15",
   "description": "depy web application",
   "main": "server.js",
@@ -28,7 +28,7 @@
   "author": "Liora Milbaum",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/depy-io/issues"
+    "url": "https://github.com/depy-io/depy/issues"
   },
-  "homepage": "https://github.com/depy-io#readme"
+  "homepage": "https://github.com/depy-io/depy#readme"
 }
