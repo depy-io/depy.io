@@ -3,6 +3,7 @@ var express = require('express')
   , app = express()
   , template_home = require('jade').compileFile(__dirname + '/source/templates/homepage.jade')
   , template_about = require('jade').compileFile(__dirname + '/source/templates/about.jade')
+  , port = process.env.PORT || 3000
 
 app.use(logger('dev'))
 app.use(express.static(__dirname + '/static'))
@@ -25,6 +26,6 @@ app.get('/about', function (req, res, next) {
   }
 })
 
-app.listen(process.env.PORT || 3000, function () {
-	  console.log('Listening on http://localhost:' + (process.env.PORT || 3000))
+app.listen(port, function () {
+	  console.log('Listening on http://localhost:' + port)
 })
