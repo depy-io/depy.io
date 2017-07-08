@@ -1,13 +1,8 @@
 {
   "dependencies": {
-    "aws-sdk": ">= 2.0.9",
-    "express": "^4.14.0",
+    "express": "^4.15.3",
     "jade": "^1.11.0",
-    "morgan": "^1.7.0",
-    "node-uuid": ">= 1.4.1",
-    "nodemon": "^1.9.2",
-    "pug": "^2.0.0-beta6",
-    "stylus": "^0.54.5"
+    "morgan": "^1.7.0"
   },
   "name": "depy.io",
   "version": "0.0.15",
